@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Jose Luis Denk">
+      <meta name="description" content="Portafolio de Jose Luis Denk">
+      <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, React, Visual Studio Code, Git, GitHub">
+      <title>Portafolio | Jose Luis Denk</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="/style.css">
+      <link rel="icon" type="image/x-icon" href="img/icono-portafolio.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rubik+Dirt&family=Sono:wght@300&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/1e91b1ead0.js" crossorigin="anonymous"></script>
+    </head>
+ 
+  <body>
+
+<!-- NAVBAR  --><!-- NAVBAR  --><!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img class="logoJLD" src="img/Logo/sparkleJoseFondo2.gif" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link active nav-sobre-mi" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+     
+<!-- BACKGROUND --><!-- BACKGROUND --><!-- BACKGROUND -->
+    <div class="container-background-cuadrado">
+      <div class="cuadrado cuadrado1"></div>
+      <div class="cuadrado cuadrado2"></div>
+      <div class="cuadrado cuadrado3"></div>
+      <div class="cuadrado cuadrado4"></div>
+      <div class="cuadrado cuadrado5"></div>
+    </div>
+
+<!-- SECCION HERO --><!-- SECCION HERO --><!-- SECCION HERO -->
+
+    <section class="hero aling-items-stretch">
+      <div class="hero-principal">
+        <img class="hero-imagen-perfil" src="img/Perfil-Jose4.jpg" alt="Foto de perfil">
+        <h1 class="">Hola, soy Jose Luis Denk</h1>
+        <div class="console-container"><span id="text"></span>
+        <div class="console-underscore" id="console">&#95;</div></div>
+      </div>
+    </section>
+
+<!-- SOBRE MI --><!-- SOBRE MI --><!-- SOBRE MI -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="img-icon-heart col-2">
+        <img src="img/heart.png" id="icon-heart" alt="Imagen corazon">
+      </div>
+      <div class="img-icon-heart col-2">
+        <img src="img/heart.png" id="icon-heart2" alt="Imagen corazon">
+      </div>
+      <div class="contenedor col-8 col-xs-12">
+        <h2 class="seccion-titulo col-xs-3">Sobre mí</h2>
+        <p class="seccion-texto col-xs-8">Soy freelance radicado en Buenos Aires-Argentina. He estado construyendo sitios web que cumplen con las últimas tendencias de diseño. Puedo ayudarte a convertir tu visión e ideas en productos significativos y útiles.</p>
+      </div>
+      <div class="img-icon-fire">
+        <img src="img/fire.png" id="icon-fire" alt="Imagen fuego">
+      </div>
+      
+    </section>
+
+<!-- Mis skills --><!-- Mis skills --><!-- Mis skills -->
+    <section id="skills" class="skills seccion-clara">
+      <div class="container text-center">
+        <h2 class="seccion-titulo">Mis Skills</h2>
+        <div class="row">
+
+          <div class="columna col-4 col-md-3">
+            <i id="html" class="fa-brands fa-html5"></i>
+            <p class="skills-titulo">HTML</p>
+          </div>
+          <div class="columna col-4 col-md-3">
+            <i id="css" class="fa-brands fa-css3-alt"></i>
+            <p class="skills-titulo">CSS</p>
+          </div>
+          <div class="columna col-4 col-md-3">
+            <i id="javascript" class="fa-brands fa-square-js"></i>
+            <p class="skills-titulo">JAVASCRIPT</p>
+          </div>
+          <div class="columna col-4 col-md-3">
+            <i id="git" class="fa-brands fa-git-alt"></i>
+            <p class="skills-titulo">GIT</p>
+          </div>
+          <div class="columna col-4 col-md-3">
+            <i id="github" class="fa-brands fa-github"></i>
+            <p class="skills-titulo">GITHUB</p>
+          </div>
+          <div class="columna col-4 col-md-3">
+            <i id="bootstrap" class="fa-brands fa-bootstrap"></i>
+            <p class="skills-titulo">BOOTSTRAP</p>
+          </div>
+          <div class="columna col-4 col-md-3">
+            <i id="sass" class="fa-brands fa-sass"></i>
+            <p class="skills-titulo">SASS</p>
+          </div>
+          <div class="columna col-4 col-md-3">
+            <i id="react" class="fa-brands fa-react"></i>
+            <p class="skills-titulo">REACT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- CERTIFICADOS --><!-- CERTIFICADOS --><!-- CERTIFICADOS -->
+<!-- https://getbootstrap.com/docs/5.2/components/card/#list-groups -->
+<!-- https://getbootstrap.com/docs/5.2/components/buttons/ -->
+    <!-- <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Certificados</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              El decorador @property en Python - cómo usarlo, ventajas y sintaxis
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Para qué se usa Python? 10+ usos del lenguaje de programación Python
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section> -->
+
+<!-- PROYECTOS --><!-- PROYECTOS --><!-- PROYECTOS -->
+<!-- --- PUEDO PERSONALIZAR .overlay i EN CSS PARA QUE SE ABRA EN NUEVA PESTAÑA DIRECTAMENTE en partallas chicas--- -->
+    <section id="proyectos" class="proyectos-recientes seccion-oscura d-flex flex-column">
+      <h2 class="seccion-titulo texto-blanco">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/Proyecto1.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/Proyecto2.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/Proyecto3.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/Proyecto4.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/Proyecto5.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/Proyecto6.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- https://getbootstrap.com/docs/5.2/components/buttons/ -->
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+<!-- TESTIMONIOS --><!-- TESTIMONIOS --><!-- TESTIMONIOS -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+<!-- https://getbootstrap.com/docs/5.2/components/carousel/  -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="/img/Fire1.jpg" alt="Foto de Fuego1">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Yani y Flor</p>
+                <p class="cargo">Hermanas</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="/img/Fire2.jpg" alt="Foto de Fuego2">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Mati y Nati</p>
+                <p class="cargo">Primos</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="/img/Fire3.jpg" alt="Foto de Fuego3">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Kala y Clemen</p>
+                <p class="cargo">Mascotas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+<!-- CONTACTO --><!-- CONTACTO --><!-- CONTACTO -->
+      <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para que tu proyecto cobre vida.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:joseluis.denk@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- FOOTER --><!-- FOOTER --><!-- FOOTER -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="img/Logo/sparkleJoseFondo2.gif" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Apasionado por React.<br>Creo en que la práctica hace al maestro.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/JLDenk" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/josedenk/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:joseluis.denk@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Jose Luis Denk (2022) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>
+
